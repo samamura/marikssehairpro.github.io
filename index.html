@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MarikSSé Hair Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #FAF7F4;
+    color: #2C2C2C;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 48px 16px 64px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #E8DDD0;
+    border: 2.5px solid #B87E4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .avatar-initials {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #B87E4B;
+    letter-spacing: 1px;
+  }
+
+  .name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2C2C2C;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    text-align: center;
+    margin-bottom: 36px;
+    letter-spacing: 0.3px;
+  }
+
+  .divider {
+    width: 40px;
+    height: 1.5px;
+    background-color: #B87E4B;
+    margin: 0 auto 36px;
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .link-btn {
+    display: block;
+    width: 100%;
+    padding: 15px 24px;
+    background-color: #fff;
+    border: 1px solid #E0D8D0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #2C2C2C;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.12s ease;
+    position: relative;
+    letter-spacing: 0.2px;
+  }
+
+  .link-btn:hover {
+    background-color: #F5EDE4;
+    border-color: #B87E4B;
+    transform: translateY(-1px);
+  }
+
+  .link-btn:active {
+    transform: translateY(0px);
+  }
+
+  .link-btn.featured {
+    background-color: #2C2C2C;
+    border-color: #2C2C2C;
+    color: #FAF7F4;
+  }
+
+  .link-btn.featured:hover {
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+  }
+
+  .link-btn .badge {
+    position: absolute;
+    top: -8px;
+    right: 14px;
+    background-color: #B87E4B;
+    color: #FAF7F4;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  .footer {
+    margin-top: 48px;
+    font-size: 11px;
+    color: #C9B99A;
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+
+  @media (max-width: 480px) {
+    body { padding: 36px 20px 48px; }
+    .name { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="avatar">
+    <span class="avatar-initials">M</span>
+  </div>
+
+  <h1 class="name">MarikSSé Hair Pro</h1>
+  <p class="tagline">Colorista profesional · Salud capilar</p>
+  <div class="divider"></div>
+
+  <nav class="links" aria-label="Links de MarikSSé Hair Pro">
+
+    <a class="link-btn featured" href="https://mariksse-colorista.hotmart.host/masterclass-tecnica-strong-mechas-con-gorra-el-proceso-completo-paso-a-paso-ee573591-72a9-43da-bdb4-9c8a69cc8b62" target="_blank" rel="noopener">
+      <span class="badge">Disponible ahora</span>
+      Capacitaciones
+    </a>
+
+    <a class="link-btn" href="https://mariksse.com.ar" target="_blank" rel="noopener">
+      Tienda MarikSSé
+    </a>
+
+    <a class="link-btn" href="https://mariksse.luqueo.com" target="_blank" rel="noopener">
+      Turnos
+    </a>
+
+    <a class="link-btn" href="https://wa.me/5491136204303" target="_blank" rel="noopener">
+      WhatsApp
+    </a>
+
+    <a class="link-btn" href="https://instagram.com/maricelparatian" target="_blank" rel="noopener">
+      Instagram
+    </a>
+
+    <a class="link-btn" href="https://tiktok.com/@maricel_paratian" target="_blank" rel="noopener">
+      TikTok
+    </a>
+
+  </nav>
+
+  <p class="footer">mariksse.com.ar</p>
+
+</div>
+</body>
+</html>
